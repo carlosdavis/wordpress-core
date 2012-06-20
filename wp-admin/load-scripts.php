@@ -21,7 +21,6 @@ function __() {}
  */
 function _x() {}
 
-
 /**
  * @ignore
  */
@@ -91,6 +90,13 @@ function includes_url() {}
  * @ignore
  */
 function wp_guess_url() {}
+
+if ( ! function_exists( 'json_encode' ) ) :
+/**
+ * @ignore
+ */
+function json_encode() {}
+endif;
 
 function get_file($path) {
 
